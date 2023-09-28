@@ -1,0 +1,157 @@
+/*========== FONTS ==========*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Playfair Display', serif !important;
+}
+
+
+
+/*========== UTILITIES ==========*/
+.bgColor1 {
+    background-color: #92CAD2;
+}
+.bgColor2 {
+    background-color: #E29B70;
+}
+.color1 {
+    color: #92CAD2;
+}
+.color2 {
+    color: #E29B70;
+}
+.p-0 {
+    padding: 0 !important;
+}
+
+
+/*========== COMPONENTS ==========*/
+.btn-link {
+    background-color: #fff;
+    height: 30px;
+    width: 160px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition-duration: .3s;
+}
+.btn-back {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.btn-back span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif !important;
+}
+.btn-back img {
+    height: 16px;
+    margin-right: 10px;
+}
+
+
+
+/*========== HOME ==========*/
+#home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home > div {
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#home > div .logo {
+    width: 120px;
+    position: absolute;
+    top: 20px;
+}
+#home > div h6 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+#home > div .lenguage {
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    font-family: 'Roboto', sans-serif !important;
+    background-color: transparent;
+    border: none;
+    font-style: italic;
+}
+
+
+
+/*========== FORM ==========*/
+.page-form {
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+.page-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.page-form h2 {
+    color: #fff;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 30px 0;
+}
+.page-form .box-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.page-form .box-input label {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif !important;
+    margin-bottom: 10px;
+}
+.page-form .box-input input {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif !important;
+    border-radius: 4px;
+    border: none;
+    height: 30px;
+    padding: 10px;
+}
+.page-form .box-input .error {
+    color: #df0000;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif !important;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.page-form .btn-link {
+    margin-top: 40px;
+}
+
+.page-form .registrar .btn-link {
+    color: #92CAD2;
+}
+.page-form .postular .btn-link {
+    color: #E29B70;
+}
